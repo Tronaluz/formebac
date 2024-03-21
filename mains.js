@@ -10,7 +10,7 @@ document.getElementById('form-num').addEventListener('submit', function (event) 
         messageElement.style.color = 'blue';
     } else {
         messageElement.textContent = ('O numéro B precisa ser mairo que o número A.');
-        messageElement.style.color = 'red';
+        messageElement.style.color = 'pink';
     }
 });
 
